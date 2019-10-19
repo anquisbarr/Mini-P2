@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Sebastian Q.B/Documents/GitHub/POO-2/Mini-P2/Country.cpp
+sstream
+-
+string
+-
+iostream
+-
+fstream
+-
+forward_list
+-
+vector
+-
+
+C:/Users/Sebastian Q.B/Documents/GitHub/POO-2/Mini-P2/main.cpp
+iostream
+-
+

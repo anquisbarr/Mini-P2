@@ -71,7 +71,8 @@ public:
     }
 };
 
-class X{
+
+class Countries{
 private:
     vector<Country*>* countries;
 
@@ -93,5 +94,7 @@ private:
             string quantity_name = spaces[7];
             unsigned int quantity = stoi(spaces[8]);
             string category = spaces[9];
-    }
+        }
+
 };
+
