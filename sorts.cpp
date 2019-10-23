@@ -30,5 +30,6 @@ void quick_sort(Countries* a,int i,int d){
             quick_sort(a,izquierda,d);
         }
     }
+    
 }
 
