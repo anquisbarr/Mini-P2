@@ -82,19 +82,31 @@ private:
         string space;
         while(getline(stream,space,',')){
             spaces.push_back(space);
+            cout<<space<<endl;
         }
-        if (spaces.size()==10)
+        if (spaces.size()==10){
             string countryName = spaces[0];
             unsigned int year = stoi(spaces[1]);
             unsigned int commCode = stoi(spaces[2]);
             string commodity = spaces[3];
             string flow = spaces[4];
-            unsigned int trade_usd = stoi(spaces[5]);
+            unsigned int 
+            trade_usd = stoi(spaces[5]);
             unsigned int weight = stoi(spaces[6]);
             string quantity_name = spaces[7];
             unsigned int quantity = stoi(spaces[8]);
             string category = spaces[9];
+        
         }
-
+        
+    }
+    
+public:
+    vector<Country*>* get_countries(){
+        return countries;
+    }
+    vector<Country*>* set_countries(vector<Country*>* f){
+        countries=f;
+    }
 };
 
