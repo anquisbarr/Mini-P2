@@ -1,0 +1,2 @@
+Afghanistan,2016,10410,Sheep live,Export,6088,2339,Number of items,51,01_live_animals
+Afghanistan,2016,10420,Goats live,Export,3958,984,Number of items,53,01_live_animals

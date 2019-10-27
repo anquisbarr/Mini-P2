@@ -1,4 +1,5 @@
 #include<iostream>
+#include "Country.cpp"
 
 using namespace std;
 
@@ -31,5 +32,41 @@ void quick_sort(Countries* a,int i,int d){
         }
     }
     
+}
+
+
+template <class S>
+void merge(vector<S> *vect,int l,int m,int r){
+    int count = 0;
+    int n1 = m - l + 1;
+    int n2 = r - m;
+    vector<S>* L = new vector<S>();
+    vector<S>* R = new vector<S>();
+
+    for (S palabra : *vect){
+        if (count < n1)
+            L->push_back(palabra);
+        else
+            R->push_back(palabra);
+        count++;
+    }
+
+    int i = 0, j = 0, k= l;
+    while(i<n1 && j < n2){
+        if (*L[i] <= *R[j]){
+            *vect[k] = *L[i];
+            i++;
+        }
+        else{
+            *vect[k] = *R[j];
+            j++;
+        }
+        k++;
+    }
+}
+
+template <class T>
+void mergeSort(T lista){
+
 }
 

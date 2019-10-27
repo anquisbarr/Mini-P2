@@ -6,12 +6,12 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Sebastian Q.B/Documents/GitHub/POO-2/Mini-P2/Country.cpp
+/home/chrisis/CLionProjects/Mini-P2-master/Country.cpp
+iostream
+-
 sstream
 -
 string
--
-iostream
 -
 fstream
 -
@@ -20,7 +20,7 @@ forward_list
 vector
 -
 
-C:/Users/Sebastian Q.B/Documents/GitHub/POO-2/Mini-P2/main.cpp
-iostream
--
+/home/chrisis/CLionProjects/Mini-P2-master/main.cpp
+Country.cpp
+/home/chrisis/CLionProjects/Mini-P2-master/Country.cpp
 
