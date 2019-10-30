@@ -9,17 +9,17 @@
 #include "Country.h"
 #include <sstream>
 
-class deserializadorTransaccion :public Deserializador<Country>{
+class deserializadorCountry :public Deserializador<Country>{
 public:
-    deserializadorTransaccion();
-    ~deserializadorTransaccion();
+    deserializadorCountry();
+    ~deserializadorCountry();
     Country* Deserializar(const string&, char) override;
 };
 
-deserializadorTransaccion::deserializadorTransaccion() : Deserializador(){}
-deserializadorTransaccion::~deserializadorTransaccion() {}
+deserializadorCountry::deserializadorCountry() : Deserializador(){}
+deserializadorCountry::~deserializadorCountry() {}
 
-Country* deserializadorTransaccion::Deserializar(const string& informacion , char delim) {
+Country* deserializadorCountry::Deserializar(const string& informacion , char delim) {
     string campo;
     vector<string> campos;
     stringstream stream(informacion);
