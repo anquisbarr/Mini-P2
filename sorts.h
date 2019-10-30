@@ -56,7 +56,16 @@ void Sorts<T>::QuickSort(int inicio, int final) {
         QuickSort(p+1,final);
     }
 }
-
+/*
+template <class T>
+void Sorts<T>::QuickSort(int inicio, int final) {
+    if(inicio < final){
+        int p = particion(inicio,final);
+        QuickSort(inicio,p-1);
+        QuickSort(p+1,final);
+    }
+}
+*/
 template <class T>
 Sorts<T>::Sorts(const string& nombreArchivo) {
     serializador = new serializadorCountry<T>();
@@ -118,6 +127,7 @@ void Sorts<T>::listar(const string & nombreArchivo) {
 template <class T>
 void Sorts<T>::listarCountries() {
     listar("QuickSort.csv");
+
 }
 
 //Destructor

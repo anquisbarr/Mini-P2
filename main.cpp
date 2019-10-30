@@ -33,6 +33,7 @@ int main(){
     auto* sort = new Sorts<Country>("sample_data.csv");
     sort->mostrarElementos();
     sort->QuickSort(0, sort->size()-1);
+    sort->listarCountries();
 
 
     return 0;
