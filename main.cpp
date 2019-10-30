@@ -1,4 +1,4 @@
-#include "Country.cpp"
+#include "sorts.h"
 #include "sorts.cpp"
 
 
@@ -18,7 +18,7 @@ int main(){
 
 
     for (int x : *enteros){
-        cout << x << endl;
+        cout << x << "," ;
     }
 
     merge(enteros);
@@ -26,7 +26,7 @@ int main(){
     cout << endl << endl;
 
     for (int y : *enteros){
-        cout << y << endl;
+        cout << y <<", ";
     }
 
 
