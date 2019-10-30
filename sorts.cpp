@@ -179,6 +179,51 @@ void heap(vector<E>* vect){
         swap(vect,x,0);
         sift(vect,x,0);
     }
+}
 
+template <class F>
+void shell(vector<F>* vect){
+    int tamano = vect->size();
+    for (int tam = tamano/2; tam > 0; tam = tam / 2){
+
+        for (int i = tam; i < tamano; i++){
+
+            int itam = i - tam;
+            auto pos = vect->begin();
+            auto pos2 = vect->begin();
+            for (int m = 0; m<i;m++){
+                pos++;
+            }
+
+            for (int m = 0; m<itam;m++){
+                pos2++;
+            }
+            int temp = *pos;
+            int temp2 = *pos2;
+            auto temporal1 = vect->begin();
+            auto temporal2 = vect->begin();
+
+            for (int j = i; j >=tam && *pos2 > temp; j = j - tam){
+                int jj = j - tam;
+                pos2 = vect->begin();
+                temporal1 = vect->begin();
+                temporal2 = vect->begin();
+                for (int z = 0; z < jj; z++){
+                    pos2++;
+                }
+                for (int x = 0; x < j; x++){
+                    temporal1++;
+                }
+
+                for (int y = 0; y < (j-tam); y++){
+                    temporal2++;
+                }
+                vect->erase(temporal1);
+                vect->insert(temporal1,*temporal2);
+            }
+            vect->erase(temporal1);
+            vect->insert(temporal1,temp);
+        }
+    }
 
 }

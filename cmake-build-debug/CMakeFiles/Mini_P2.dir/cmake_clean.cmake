@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Mini_P2.dir/main.cpp.obj"
-  "Mini_P2.exe"
-  "Mini_P2.exe.manifest"
+  "CMakeFiles/Mini_P2.dir/main.cpp.o"
+  "Mini_P2"
   "Mini_P2.pdb"
-  "libMini_P2.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

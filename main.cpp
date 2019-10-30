@@ -22,14 +22,14 @@ int main(){
         cout << x << "," ;
     }
 
-    heap(enteros);
+    shell(enteros);
 
     cout << endl << endl;
 
     for (int y : *enteros){
         cout << y <<", ";
-    }
-    */
+    }*/
+
     auto* sort = new Sorts<Country>("sample_data.csv");
     sort->mostrarElementos();
     sort->QuickSort(0, sort->size()-1);

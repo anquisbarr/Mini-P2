@@ -6,51 +6,51 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/Country.h
+/home/chrisis/CLionProjects/project2-POO2/Mini-P2/Country.h
 iostream
 -
 string
 -
 
-C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/deserializador.h
+/home/chrisis/CLionProjects/project2-POO2/Mini-P2/deserializador.h
 iostream
 -
 vector
 -
 
-C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/deserializadorCountry.h
+/home/chrisis/CLionProjects/project2-POO2/Mini-P2/deserializadorCountry.h
 deserializador.h
-C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/deserializador.h
+/home/chrisis/CLionProjects/project2-POO2/Mini-P2/deserializador.h
 Country.h
-C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/Country.h
+/home/chrisis/CLionProjects/project2-POO2/Mini-P2/Country.h
 sstream
 -
 
-C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/main.cpp
+/home/chrisis/CLionProjects/project2-POO2/Mini-P2/main.cpp
 sorts.h
-C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/sorts.h
+/home/chrisis/CLionProjects/project2-POO2/Mini-P2/sorts.h
 sorts.cpp
-C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/sorts.cpp
+/home/chrisis/CLionProjects/project2-POO2/Mini-P2/sorts.cpp
 
-C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/serializador.h
+/home/chrisis/CLionProjects/project2-POO2/Mini-P2/serializador.h
 iostream
 -
 vector
 -
 
-C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/serializadorCountry.h
+/home/chrisis/CLionProjects/project2-POO2/Mini-P2/serializadorCountry.h
 serializador.h
-C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/serializador.h
+/home/chrisis/CLionProjects/project2-POO2/Mini-P2/serializador.h
 Country.h
-C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/Country.h
+/home/chrisis/CLionProjects/project2-POO2/Mini-P2/Country.h
 sstream
 -
 
-C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/sorts.cpp
+/home/chrisis/CLionProjects/project2-POO2/Mini-P2/sorts.cpp
 iostream
 -
 
-C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/sorts.h
+/home/chrisis/CLionProjects/project2-POO2/Mini-P2/sorts.h
 iostream
 -
 fstream
@@ -58,7 +58,7 @@ fstream
 cstring
 -
 serializadorCountry.h
-C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/serializadorCountry.h
+/home/chrisis/CLionProjects/project2-POO2/Mini-P2/serializadorCountry.h
 deserializadorCountry.h
-C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/deserializadorCountry.h
+/home/chrisis/CLionProjects/project2-POO2/Mini-P2/deserializadorCountry.h
 
