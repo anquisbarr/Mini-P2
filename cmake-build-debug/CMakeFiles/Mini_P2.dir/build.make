@@ -43,10 +43,10 @@ RM = /home/chrisis/Descargas/clion-2019.2.4/bin/cmake/linux/bin/cmake -E remove 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chrisis/CLionProjects/Mini-P2-master
+CMAKE_SOURCE_DIR = /home/chrisis/CLionProjects/project2-POO2/Mini-P2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chrisis/CLionProjects/Mini-P2-master/cmake-build-debug
+CMAKE_BINARY_DIR = /home/chrisis/CLionProjects/project2-POO2/Mini-P2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Mini_P2.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/Mini_P2.dir/flags.make
 
 CMakeFiles/Mini_P2.dir/main.cpp.o: CMakeFiles/Mini_P2.dir/flags.make
 CMakeFiles/Mini_P2.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrisis/CLionProjects/Mini-P2-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Mini_P2.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Mini_P2.dir/main.cpp.o -c /home/chrisis/CLionProjects/Mini-P2-master/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrisis/CLionProjects/project2-POO2/Mini-P2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Mini_P2.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Mini_P2.dir/main.cpp.o -c /home/chrisis/CLionProjects/project2-POO2/Mini-P2/main.cpp
 
 CMakeFiles/Mini_P2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini_P2.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrisis/CLionProjects/Mini-P2-master/main.cpp > CMakeFiles/Mini_P2.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrisis/CLionProjects/project2-POO2/Mini-P2/main.cpp > CMakeFiles/Mini_P2.dir/main.cpp.i
 
 CMakeFiles/Mini_P2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini_P2.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrisis/CLionProjects/Mini-P2-master/main.cpp -o CMakeFiles/Mini_P2.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrisis/CLionProjects/project2-POO2/Mini-P2/main.cpp -o CMakeFiles/Mini_P2.dir/main.cpp.s
 
 CMakeFiles/Mini_P2.dir/Country.cpp.o: CMakeFiles/Mini_P2.dir/flags.make
 CMakeFiles/Mini_P2.dir/Country.cpp.o: ../Country.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrisis/CLionProjects/Mini-P2-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Mini_P2.dir/Country.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Mini_P2.dir/Country.cpp.o -c /home/chrisis/CLionProjects/Mini-P2-master/Country.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrisis/CLionProjects/project2-POO2/Mini-P2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Mini_P2.dir/Country.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Mini_P2.dir/Country.cpp.o -c /home/chrisis/CLionProjects/project2-POO2/Mini-P2/Country.cpp
 
 CMakeFiles/Mini_P2.dir/Country.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mini_P2.dir/Country.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrisis/CLionProjects/Mini-P2-master/Country.cpp > CMakeFiles/Mini_P2.dir/Country.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrisis/CLionProjects/project2-POO2/Mini-P2/Country.cpp > CMakeFiles/Mini_P2.dir/Country.cpp.i
 
 CMakeFiles/Mini_P2.dir/Country.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mini_P2.dir/Country.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrisis/CLionProjects/Mini-P2-master/Country.cpp -o CMakeFiles/Mini_P2.dir/Country.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrisis/CLionProjects/project2-POO2/Mini-P2/Country.cpp -o CMakeFiles/Mini_P2.dir/Country.cpp.s
 
 # Object files for target Mini_P2
 Mini_P2_OBJECTS = \
@@ -95,7 +95,7 @@ Mini_P2: CMakeFiles/Mini_P2.dir/main.cpp.o
 Mini_P2: CMakeFiles/Mini_P2.dir/Country.cpp.o
 Mini_P2: CMakeFiles/Mini_P2.dir/build.make
 Mini_P2: CMakeFiles/Mini_P2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chrisis/CLionProjects/Mini-P2-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Mini_P2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chrisis/CLionProjects/project2-POO2/Mini-P2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Mini_P2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Mini_P2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/Mini_P2.dir/clean:
 .PHONY : CMakeFiles/Mini_P2.dir/clean
 
 CMakeFiles/Mini_P2.dir/depend:
-	cd /home/chrisis/CLionProjects/Mini-P2-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chrisis/CLionProjects/Mini-P2-master /home/chrisis/CLionProjects/Mini-P2-master /home/chrisis/CLionProjects/Mini-P2-master/cmake-build-debug /home/chrisis/CLionProjects/Mini-P2-master/cmake-build-debug /home/chrisis/CLionProjects/Mini-P2-master/cmake-build-debug/CMakeFiles/Mini_P2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chrisis/CLionProjects/project2-POO2/Mini-P2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chrisis/CLionProjects/project2-POO2/Mini-P2 /home/chrisis/CLionProjects/project2-POO2/Mini-P2 /home/chrisis/CLionProjects/project2-POO2/Mini-P2/cmake-build-debug /home/chrisis/CLionProjects/project2-POO2/Mini-P2/cmake-build-debug /home/chrisis/CLionProjects/project2-POO2/Mini-P2/cmake-build-debug/CMakeFiles/Mini_P2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Mini_P2.dir/depend
 

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chrisis/CLionProjects/Mini-P2-master/Country.cpp" "/home/chrisis/CLionProjects/Mini-P2-master/cmake-build-debug/CMakeFiles/Mini_P2.dir/Country.cpp.o"
-  "/home/chrisis/CLionProjects/Mini-P2-master/main.cpp" "/home/chrisis/CLionProjects/Mini-P2-master/cmake-build-debug/CMakeFiles/Mini_P2.dir/main.cpp.o"
+  "/home/chrisis/CLionProjects/project2-POO2/Mini-P2/Country.cpp" "/home/chrisis/CLionProjects/project2-POO2/Mini-P2/cmake-build-debug/CMakeFiles/Mini_P2.dir/Country.cpp.o"
+  "/home/chrisis/CLionProjects/project2-POO2/Mini-P2/main.cpp" "/home/chrisis/CLionProjects/project2-POO2/Mini-P2/cmake-build-debug/CMakeFiles/Mini_P2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

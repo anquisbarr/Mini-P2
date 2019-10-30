@@ -34,39 +34,56 @@ void quick_sort(Countries* a,int i,int d){
     
 }
 
-
 template <class S>
-void merge(vector<S> *vect,int l,int m,int r){
-    int count = 0;
-    int n1 = m - l + 1;
-    int n2 = r - m;
-    vector<S>* L = new vector<S>();
-    vector<S>* R = new vector<S>();
+void merge(vector<S>* vect){
+    if (vect > 1) {
+        int mid = vect->size()/2;
 
-    for (S palabra : *vect){
-        if (count < n1)
-            L->push_back(palabra);
-        else
-            R->push_back(palabra);
-        count++;
-    }
+        vector<S> *L = new vector<S>();
+        vector<S> *R = new vector<S>();
 
-    int i = 0, j = 0, k= l;
-    while(i<n1 && j < n2){
-        if (*L[i] <= *R[j]){
-            *vect[k] = *L[i];
-            i++;
+        for (S v : *vect){
+            if (vect->size() < mid)
+                L->push_back(v);
+            else
+                R->push_back(v);
         }
-        else{
-            *vect[k] = *R[j];
-            j++;
-        }
-        k++;
+
+        merge(*L);
+        merge(*R);
+        mergeSort();
     }
 }
 
 template <class T>
-void mergeSort(T lista){
+void mergeSort(vector<T>* left,vector<T>* right,vector<T>* nuevoVector){
+    unsigned int nl = left->size();
+    unsigned int nr = right.size();
+    unsigned int i = 0, j = 0, k = 0;
 
+    auto i1 = left->begin();
+    auto i2 = right->begin();
+
+    while (j < nl && k < nr){
+        if (*i1 < *i2){
+            nuevoVector->push_back(*i1);
+            i1++;
+            j++;
+        }
+        else{
+            nuevoVector->push_back(*i2);
+            i2++;
+            k++;
+        }
+        i++;
+    }
+
+    while(j<nl){
+        nuevoVector->push_back(*i1);
+    }
+
+    while (k<nr){
+        nuevoVector->push_back(*i2);
+    }
 }
 
