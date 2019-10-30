@@ -7,7 +7,7 @@ int main(){
     //p->mostrar_countries();
     //delete p;
 
-    vector<int>* enteros = new vector<int>();
+    /*vector<int>* enteros = new vector<int>();
     vector<int>* temp = new vector<int>();
     enteros->push_back(3);
     enteros->push_back(6);
@@ -28,7 +28,10 @@ int main(){
     for (int y : *enteros){
         cout << y <<", ";
     }
-
+    */
+    auto* sort = new Sorts<Country>("sample_data.csv");
+    sort->mostrarElementos();
+    sort->QuickSort(0, sort->size()-1);
 
 
     return 0;
