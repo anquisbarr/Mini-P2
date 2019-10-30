@@ -83,6 +83,7 @@
 		<Unit filename="C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/Country.cpp">
 			<Option target="Mini_P2"/>
 		</Unit>
+<<<<<<< HEAD
 		<Unit filename="C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/Country.h">
 			<Option target="Mini_P2"/>
 		</Unit>
@@ -105,6 +106,30 @@
 			<Option target="Mini_P2"/>
 		</Unit>
 		<Unit filename="C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/CMakeLists.txt">
+=======
+		<Unit filename="/home/chrisis/CLionProjects/project2-POO2/Mini-P2/Country.h">
+			<Option target="Mini_P2"/>
+		</Unit>
+		<Unit filename="/home/chrisis/CLionProjects/project2-POO2/Mini-P2/deserializador.h">
+			<Option target="Mini_P2"/>
+		</Unit>
+		<Unit filename="/home/chrisis/CLionProjects/project2-POO2/Mini-P2/deserializadorCountry.h">
+			<Option target="Mini_P2"/>
+		</Unit>
+		<Unit filename="/home/chrisis/CLionProjects/project2-POO2/Mini-P2/main.cpp">
+			<Option target="Mini_P2"/>
+		</Unit>
+		<Unit filename="/home/chrisis/CLionProjects/project2-POO2/Mini-P2/serializador.h">
+			<Option target="Mini_P2"/>
+		</Unit>
+		<Unit filename="/home/chrisis/CLionProjects/project2-POO2/Mini-P2/serializadorCountry.h">
+			<Option target="Mini_P2"/>
+		</Unit>
+		<Unit filename="/home/chrisis/CLionProjects/project2-POO2/Mini-P2/sorts.h">
+			<Option target="Mini_P2"/>
+		</Unit>
+		<Unit filename="/home/chrisis/CLionProjects/project2-POO2/Mini-P2/CMakeLists.txt">
+>>>>>>> 020c15034009403031ff74a18f1081c88a6d3a32
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
