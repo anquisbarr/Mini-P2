@@ -28,4 +28,15 @@ public:
     void listarCountries();
 };
 
+template <class T>
+int Sorts<T>::size() {
+    return deserializador->getElementos()->size();
+}
+
+template <class T>
+int Sorts<T>::particion(int inicio, int final){
+    int x = elementos->at(final)->getTradeUsd();
+}
+
+
 #endif //MINI_P2_SORTS_H
