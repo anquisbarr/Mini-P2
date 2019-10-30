@@ -1,8 +1,9 @@
 #include "sorts.h"
 #include "sorts.cpp"
-
+#include <ctime>
 
 int main(){
+    unsigned t0,t1;
     //Countries *p= new Countries("sample_data.csv");
     //p->mostrar_countries();
     //delete p;
@@ -31,9 +32,18 @@ int main(){
     }*/
 
     auto* sort = new Sorts<Country>("sample_data.csv");
-    sort->mostrarElementos();
-    sort->QuickSort(0, sort->size()-1);
 
+    sort->mostrarElementos();
+    t0=clock();
+    sort->QuickSort(0, sort->size()-1);
+    t1=clock();
+
+
+    double time_1 =((t1-t0)/1000.0);
+
+    sort->listarCountries();
+
+    cout<< "Execution time off Quicksort: "<<time_1;
 
     return 0;
 }
