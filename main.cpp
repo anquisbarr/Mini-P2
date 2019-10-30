@@ -7,25 +7,29 @@ int main(){
     //p->mostrar_countries();
     //delete p;
 
-    /*vector<int>* enteros = new vector<int>();
+    vector<int>* enteros = new vector<int>();
     vector<int>* temp = new vector<int>();
     enteros->push_back(3);
     enteros->push_back(6);
     enteros->push_back(1);
     enteros->push_back(4);
+    enteros->push_back(7);
+    enteros->push_back(2);
 
-    merge(enteros,temp);
 
     for (int x : *enteros){
         cout << x << endl;
     }
+
+    merge(enteros);
+
     cout << endl << endl;
 
-    for (int y : *temp){
+    for (int y : *enteros){
         cout << y << endl;
     }
 
 
-    */
+
     return 0;
 }
