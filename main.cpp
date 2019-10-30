@@ -15,13 +15,14 @@ int main(){
     enteros->push_back(4);
     enteros->push_back(7);
     enteros->push_back(2);
+    enteros->push_back(5);
 
 
     for (int x : *enteros){
         cout << x << endl;
     }
 
-    merge(enteros);
+    heap(enteros);
 
     cout << endl << endl;
 

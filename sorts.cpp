@@ -102,3 +102,83 @@ void merge(vector<S>* vect){
     }
 }
 
+
+template <class T>
+void swap(vector<T>* vect,int x,int y){
+    if (x == y)
+        return;
+
+    auto l = vect->begin();
+    auto m = vect->begin();
+
+    for (int a = x; a > 0;a--){
+        l++;
+    }
+
+    for (int b = y; b > 0; b--){
+        m++;
+    }
+
+    auto temp1 = *l;
+    auto temp2 = *m;
+
+    vect->erase(l);
+    vect->insert(l,temp2);
+    vect->erase(m);
+    vect->insert(m,temp1);
+}
+
+template <class C>
+void sift(vector<C>* vect,int vectSize,int y){
+    int m, l;
+    l = y;
+    auto posVect1 = vect->begin();
+    for (int x = l; x > 0; x--){
+        posVect1++;
+    }
+
+    do{
+        m = l;
+        auto posVect2 = vect->begin();
+        for (int x = m*2 + 1; x > 0; x--){
+            posVect2++;
+        }
+
+        auto posVect3 = vect->begin();
+        for (int x = m*2 + 2;x > 0; x--){
+            posVect3++;
+        }
+
+        if ((2*m + 1) < vectSize && *posVect1 > *posVect2){
+            l = 2*m + 1;
+        }
+
+        if ((2*m + 2) < vectSize && *posVect1 > *posVect3){
+            l = 2*m + 2;
+        }
+
+        swap(vect,m,l);
+
+    }while(m != l);
+}
+
+
+
+template <class A>
+void makeInitialHeap(vector<A>* vect){
+    for (int i = vect->size() - 1; i >= 0; --i){
+        sift(vect,vect->size(),i);
+    }
+}
+
+template <class E>
+void heap(vector<E>* vect){
+    makeInitialHeap(vect);
+
+    for (unsigned int x = vect->size() - 1; x > 0; --x){
+        swap(vect,x,0);
+        sift(vect,x,0);
+    }
+
+
+}
