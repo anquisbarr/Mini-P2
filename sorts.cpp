@@ -34,22 +34,25 @@ void quick_sort(Countries* a,int i,int d){
 */
 
 template <class T>
-void mergeSort(vector<T>* left,vector<T>* right,vector<T>* nuevoVector){
+void mergeSort(vector<T>* left,vector<T>* right,vector<T>* vect){
     unsigned int nl = left->size();
     unsigned int nr = right->size();
-    unsigned int i = 0, j = 0, k = 0;
+    unsigned int j = 0, k = 0;
 
     auto i1 = left->begin();
     auto i2 = right->begin();
+    auto i = vect->begin();
 
     while (j < nl && k < nr){
         if (*i1 < *i2){
-            nuevoVector->push_back(*i1);
+            vect->erase(i);
+            vect->insert(i,*i1);
             i1++;
             j++;
         }
         else{
-            nuevoVector->push_back(*i2);
+            vect->erase(i);
+            vect->insert(i,*i2);
             i2++;
             k++;
         }
@@ -57,13 +60,19 @@ void mergeSort(vector<T>* left,vector<T>* right,vector<T>* nuevoVector){
     }
 
     while(j<nl){
-        nuevoVector->push_back(*i1);
+        vect->erase(i);
+        vect->insert(i,*i1);
         i1++;
+        j++;
+        i++;
     }
 
     while (k<nr){
-        nuevoVector->push_back(*i2);
+        vect->erase(i);
+        vect->insert(i,*i2);
         i2++;
+        k++;
+        i++;
     }
 
     delete left;
@@ -71,7 +80,7 @@ void mergeSort(vector<T>* left,vector<T>* right,vector<T>* nuevoVector){
 }
 
 template <class S>
-void merge(vector<S>* vect,vector<S>* vectorNuevo){
+void merge(vector<S>* vect){
     if (vect->size() > 1) {
         int mid = vect->size()/2;
         unsigned int count = 0;
@@ -87,11 +96,9 @@ void merge(vector<S>* vect,vector<S>* vectorNuevo){
             count++;
         }
 
-        merge(L,vectorNuevo);
-        merge(R,vectorNuevo);
-        mergeSort(L,R,vectorNuevo);
+        merge(L);
+        merge(R);
+        mergeSort(L,R,vect);
     }
 }
-
-
 

@@ -87,7 +87,25 @@
 		<Unit filename="/home/chrisis/CLionProjects/project2-POO2/Mini-P2/Country.cpp">
 			<Option target="Mini_P2"/>
 		</Unit>
+		<Unit filename="/home/chrisis/CLionProjects/project2-POO2/Mini-P2/Country.h">
+			<Option target="Mini_P2"/>
+		</Unit>
+		<Unit filename="/home/chrisis/CLionProjects/project2-POO2/Mini-P2/deserializador.h">
+			<Option target="Mini_P2"/>
+		</Unit>
+		<Unit filename="/home/chrisis/CLionProjects/project2-POO2/Mini-P2/deserializadorCountry.h">
+			<Option target="Mini_P2"/>
+		</Unit>
 		<Unit filename="/home/chrisis/CLionProjects/project2-POO2/Mini-P2/main.cpp">
+			<Option target="Mini_P2"/>
+		</Unit>
+		<Unit filename="/home/chrisis/CLionProjects/project2-POO2/Mini-P2/serializador.h">
+			<Option target="Mini_P2"/>
+		</Unit>
+		<Unit filename="/home/chrisis/CLionProjects/project2-POO2/Mini-P2/serializadorCountry.h">
+			<Option target="Mini_P2"/>
+		</Unit>
+		<Unit filename="/home/chrisis/CLionProjects/project2-POO2/Mini-P2/sorts.h">
 			<Option target="Mini_P2"/>
 		</Unit>
 		<Unit filename="/home/chrisis/CLionProjects/project2-POO2/Mini-P2/CMakeLists.txt">
