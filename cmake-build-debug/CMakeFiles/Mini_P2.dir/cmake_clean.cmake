@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Mini_P2.dir/Country.cpp.obj"
   "CMakeFiles/Mini_P2.dir/main.cpp.obj"
   "Mini_P2.exe"
   "Mini_P2.exe.manifest"

@@ -122,33 +122,6 @@ Mini_P2/fast:
 	$(MAKE) -f CMakeFiles\Mini_P2.dir\build.make CMakeFiles/Mini_P2.dir/build
 .PHONY : Mini_P2/fast
 
-Country.obj: Country.cpp.obj
-
-.PHONY : Country.obj
-
-# target to build an object file
-Country.cpp.obj:
-	$(MAKE) -f CMakeFiles\Mini_P2.dir\build.make CMakeFiles/Mini_P2.dir/Country.cpp.obj
-.PHONY : Country.cpp.obj
-
-Country.i: Country.cpp.i
-
-.PHONY : Country.i
-
-# target to preprocess a source file
-Country.cpp.i:
-	$(MAKE) -f CMakeFiles\Mini_P2.dir\build.make CMakeFiles/Mini_P2.dir/Country.cpp.i
-.PHONY : Country.cpp.i
-
-Country.s: Country.cpp.s
-
-.PHONY : Country.s
-
-# target to generate assembly for a file
-Country.cpp.s:
-	$(MAKE) -f CMakeFiles\Mini_P2.dir\build.make CMakeFiles/Mini_P2.dir/Country.cpp.s
-.PHONY : Country.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -185,9 +158,6 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Mini_P2
 	@echo ... edit_cache
-	@echo ... Country.obj
-	@echo ... Country.i
-	@echo ... Country.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

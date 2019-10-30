@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/Country.cpp" "C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/cmake-build-debug/CMakeFiles/Mini_P2.dir/Country.cpp.obj"
   "C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/main.cpp" "C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/cmake-build-debug/CMakeFiles/Mini_P2.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
