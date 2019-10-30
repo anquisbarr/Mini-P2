@@ -44,7 +44,7 @@ void mergeSort(vector<T>* left,vector<T>* right,vector<T>* vect){
     auto i = vect->begin();
 
     while (j < nl && k < nr){
-        if (*i1 < *i2){
+        if (*i1 > *i2){
             vect->erase(i);
             vect->insert(i,*i1);
             i1++;
