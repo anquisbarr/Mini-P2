@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chrisis/CLionProjects/project2-POO2/Mini-P2/Country.cpp
+iostream
+-
+sstream
+-
+string
+-
+fstream
+-
+forward_list
+-
+vector
+-
+
+/home/chrisis/CLionProjects/project2-POO2/Mini-P2/main.cpp
+Country.cpp
+/home/chrisis/CLionProjects/project2-POO2/Mini-P2/Country.cpp
+sorts.cpp
+/home/chrisis/CLionProjects/project2-POO2/Mini-P2/sorts.cpp
+
+/home/chrisis/CLionProjects/project2-POO2/Mini-P2/sorts.cpp
+iostream
+-
+
