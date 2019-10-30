@@ -10,15 +10,16 @@
 using namespace std;
 
 template <class T>
-class Serializador{
+class Serializador {
 protected:
     vector<T*>* elementos;
 public:
     Serializador();
     ~Serializador();
     vector <T*>* getElementos();
-    virtual string Serializar(T*,char) = 0;
+    virtual string Serializar(T*, string) = 0;
 };
+
 template <class T>
 Serializador<T>::Serializador() {
     elementos = new vector<T*>();

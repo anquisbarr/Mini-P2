@@ -101,8 +101,7 @@ private:
             unsigned int commCode = stoi(spaces[2]);
             string comodity = spaces[3];
             string flow = spaces[4];
-            unsigned int
-                    trade_usd = stoi(spaces[5]);
+            unsigned int trade_usd = stoi(spaces[5]);
             unsigned int weight = stoi(spaces[6]);
             string quantity_name = spaces[7];
             unsigned int quantity = stoi(spaces[8]);
@@ -159,7 +158,7 @@ public:
     }
 
     vector<Country*>* set_countries(vector<Country*>* f){
-        countries=f;
+        return countries=f;
     }
 
     vector<string> *getCountry1() const {
@@ -179,3 +178,5 @@ public:
     }
 
 };
+
+

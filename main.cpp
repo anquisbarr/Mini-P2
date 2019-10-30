@@ -3,11 +3,11 @@
 
 
 int main(){
-    /*Countries *p= new Countries("prueba.txt");
-    p->mostrar_countries();
-    delete p;*/
+    //Countries *p= new Countries("sample_data.csv");
+    //p->mostrar_countries();
+    //delete p;
 
-    vector<int>* enteros = new vector<int>();
+    /*vector<int>* enteros = new vector<int>();
     vector<int>* temp = new vector<int>();
     enteros->push_back(3);
     enteros->push_back(6);
@@ -26,6 +26,6 @@ int main(){
     }
 
 
-
+    */
     return 0;
 }
