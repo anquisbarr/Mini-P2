@@ -18,6 +18,7 @@ class Sorts{
 protected:
     Serializador<T>* serializador;
     Deserializador<T>* deserializador;
+    void heapify(int n);
     void listar(const string&);
     int particion(int inicio, int final);
     vector<T*>* elementos;
@@ -96,7 +97,8 @@ void Sorts<T>::listar(const string & nombreArchivo) {
     if(archivo){
         for (Country* country: *deserializador->getElementos()){
             *archivo << serializador->Serializar(country,",") <<endl;
-            cout << country->getCountryName() << " ";
+            // Provisional code for sorting and reading
+            /*cout << country->getCountryName() << " ";
             cout << country->getYear() << " ";
             cout << country->getCommCode() << " ";
             cout << country->getCommodity() << " ";
@@ -106,6 +108,7 @@ void Sorts<T>::listar(const string & nombreArchivo) {
             cout << country->getQuantityName() << " ";
             cout << country->getQuantity() << " ";
             cout << country->getCategory() << endl;
+             */
         }
         archivo->close();
     }
@@ -155,6 +158,9 @@ void Sorts<T>::heapify(auto size, int node){
           heapify(size, smallest);
       } 
 }
+
+
+
 
 
 #endif //MINI_P2_SORTS_H

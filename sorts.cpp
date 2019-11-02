@@ -72,58 +72,40 @@ void mergeSort(vector<T>* left,vector<T>* right,vector<T>* vect){
             j++;
         }
         else{
-            vect->erase(i);
-            vect->insert(i,*i2);
-            i2++;
-            k++;
+            a[k] = R[j];
+            j++;
         }
-        i++;
-    }
-
-    while(j<nl){
-        vect->erase(i);
-        vect->insert(i,*i1);
-        i1++;
-        j++;
-        i++;
-    }
-
-    while (k<nr){
-        vect->erase(i);
-        vect->insert(i,*i2);
-        i2++;
         k++;
+    }
+
+    while (i < n1){
+        a[k] = L[i];
         i++;
+        k++;
+    }
+    while (j < n2){
+        a[k] = R[j];
+        j++;
+        k++;
     }
 
-    delete left;
-    delete right;
+    delete[] R;
+    delete[] L;
 }
 
-template <class S>
-void merge(vector<S>* vect){
-    if (vect->size() > 1) {
-        int mid = vect->size()/2;
-        unsigned int count = 0;
-
-        vector<S> *L = new vector<S>();
-        vector<S> *R = new vector<S>();
-
-        for (S v : *vect){
-            if (count < mid)
-                L->push_back(v);
-            else
-                R->push_back(v);
-            count++;
-        }
-
-        merge(L);
-        merge(R);
-        mergeSort(L,R,vect);
+template<typename T>
+void Sorts<T>::mergeSort(T*a, int l, int r){
+    if (l < r){
+        int m = l+(r-l)/2;
+        mergeSort(a, l, m);
+        mergeSort(a, m+1, r);
+        merge(a, l, m, r);
     }
 }
 
 
+
+/*
 template <class T>
 void swap(vector<T>* vect,int x,int y){
     if (x == y)
