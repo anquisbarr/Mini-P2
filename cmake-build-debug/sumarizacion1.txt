@@ -1,0 +1,94 @@
+Afghanistan 2008: 1026804
+Afghanistan 2016: 10046
+Albania 1996: 1495100
+Albania 1997: 733171
+Albania 1998: 1652478
+Albania 1999: 1307601
+Albania 2000: 1250864
+Albania 2001: 1885775
+Albania 2002: 3451190
+Albania 2003: 4038080
+Albania 2004: 5776192
+Albania 2005: 12204284
+Albania 2006: 25942396
+Albania 2007: 33474981
+Albania 2008: 42875781
+Albania 2009: 40042350
+Albania 2010: 35187914
+Albania 2011: 32553029
+Albania 2012: 30634990
+Albania 2013: 30058030
+Albania 2014: 28360772
+Albania 2015: 27122141
+Albania 2016: 22723124
+Algeria 1992: 45981944
+Algeria 1993: 23038127
+Algeria 1994: 27060259
+Algeria 1995: 15841726
+Algeria 1996: 19046556
+Algeria 1997: 16103798
+Algeria 1998: 31260184
+Algeria 1999: 31887163
+Algeria 2000: 16786088
+Algeria 2001: 7651574
+Algeria 2002: 8732156
+Algeria 2003: 28633306
+Algeria 2004: 82554360
+Algeria 2005: 51389858
+Algeria 2006: 48558322
+Algeria 2007: 21455031
+Algeria 2008: 27674551
+Algeria 2009: 67192989
+Algeria 2010: 102206546
+Algeria 2011: 144064987
+Algeria 2012: 133580107
+Algeria 2013: 189498954
+Algeria 2014: 175211734
+Algeria 2015: 105408836
+Algeria 2016: 113833607
+Andorra 1995: 2487101
+Andorra 1996: 2182826
+Andorra 1997: 1703727
+Andorra 1998: 1367884
+Andorra 1999: 1709011
+Andorra 2000: 2142735
+Andorra 2001: 715066
+Andorra 2002: 465098
+Andorra 2003: 544078
+Andorra 2004: 611848
+Andorra 2005: 141496
+Andorra 2006: 408521
+Andorra 2007: 582772
+Andorra 2008: 442173
+Andorra 2009: 293339
+Andorra 2010: 446163
+Andorra 2011: 278698
+Andorra 2012: 188357
+Andorra 2013: 251218
+Andorra 2014: 338142
+Angola 2007: 3767671
+Angola 2009: 11846283
+Angola 2010: 2707797
+Angola 2011: 5781059
+Angola 2012: 18934954
+Angola 2013: 12701647
+Angola 2014: 18369001
+Angola 2015: 4149572
+Anguilla 2001: 2214
+Anguilla 2002: 4670
+Anguilla 2003: 2828
+Anguilla 2004: 16431
+Anguilla 2006: 2078
+Anguilla 2007: 1
+Anguilla 2008: 12363
+Antigua and Barbuda 2005: 117567
+Antigua and Barbuda 2006: 84338
+Antigua and Barbuda 2007: 134041
+Antigua and Barbuda 2009: 235807
+Antigua and Barbuda 2010: 535634
+Antigua and Barbuda 2011: 142215
+Antigua and Barbuda 2012: 127425
+Antigua and Barbuda 2013: 107866
+Antigua and Barbuda 2014: 119262
+Antigua and Barbuda 2015: 122975
+Antigua and Barbuda 2016: 63928

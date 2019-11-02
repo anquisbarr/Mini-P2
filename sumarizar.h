@@ -10,24 +10,9 @@
 #include <cstring>
 #include "serializadorCountry.h"
 #include "deserializadorCountry.h"
+#include <map>
 using namespace std;
 
-
-class Palabra{
-private:
-    string palabra;
-    unsigned int contador;
-public:
-    Palabra(const string &palabra, unsigned int contador) : palabra(palabra), contador(contador) {}
-
-    const string &getPalabra() const {
-        return palabra;
-    }
-
-    unsigned int getContador() const {
-        return contador;
-    }
-};
 
 
 template <class T>
@@ -35,14 +20,18 @@ class Sumarizar{
 private:
     Serializador<T>* serializador;
     Deserializador<T>* deserializador;
-    void listar(const string&);
+    void listar1(const string&);
+    void listar2(const string&);
     vector<T*>* elementos;
+    map<string,int>* result1;
+    map<string,int>* result2;
 public:
     Sumarizar(const string&);
     void sumarizacion1();
     void sumarizacion2();
 
-    void listarCountries();
+    void listarResult1();
+    void listarResult2();
     ~Sumarizar();
 
 
@@ -70,45 +59,80 @@ Sumarizar<T>::Sumarizar(const string& nombreArchivo) {
 
 template <class T>
 void Sumarizar<T>::sumarizacion1() {
-    vector<int> *llave = new vector<int>();
+    vector<string> *llave = new vector<string>();
     for (int x = 0;x < elementos->size(); x++){
-        int y = elementos->at(x)->getTradeUsd;
-        //string z = to_string(elementos->at(x)->getYear);
-        llave->push_back(y);
+        string y = elementos->at(x)->getCountryName();
+        string z = to_string(elementos->at(x)->getYear());
+        llave->push_back(y + " " + z);
     }
 
-    for (auto x : *llave){
-        cout << x << endl;
+    result1 = new map<string,int>();
+    ;
+    for (int x = 0; x < elementos->size(); x++){
+        (*result1)[llave->at(x)] += elementos->at(x)->getTradeUsd();
     }
+
+    for (auto it = result1->begin(); it != result1->end(); it ++){
+        cout << it->first << ": " << it->second << endl;
+    }
+
+
     delete llave;
 }
 
 template <class T>
-void Sumarizar<T>::listar(const string & nombreArchivo) {
-    fstream* archivo = new fstream(nombreArchivo,ios_base::out);
-    if(archivo){
-        for (Country* country: *deserializador->getElementos()){
-            *archivo << serializador->Serializar(country,",") <<endl;
-            cout << country->getCountryName() << " ";
-            cout << country->getYear() << " ";
-            cout << country->getCommCode() << " ";
-            cout << country->getCommodity() << " ";
-            cout << country->getFlow() << " ";
-            cout << country->getTradeUsd() << " ";
-            cout << country->getWeight() << " ";
-            cout << country->getQuantityName() << " ";
-            cout << country->getQuantity() << " ";
-            cout << country->getCategory() << endl;
-        }
-        archivo->close();
+void Sumarizar<T>::sumarizacion2() {
+    vector<string> *llave2 = new vector<string>();
+    for (int x = 0;x < elementos->size(); x++){
+        string y = elementos->at(x)->getCountryName();
+        string z = to_string(elementos->at(x)->getYear());
+        string a = elementos->at(x)->getFlow();
+        llave2->push_back(y + " " + z + " " + a);
     }
-    delete archivo;
+
+    result2 = new map<string,int>();
+
+    for (int x = 0; x < elementos->size(); x++){
+        (*result2)[llave2->at(x)] += elementos->at(x)->getTradeUsd();
+    }
+
+    for (auto it = result2->begin(); it != result2->end(); it ++){
+        cout << it->first << ": " << it->second << endl;
+    }
+
+    delete llave2;
 }
 
 template <class T>
-void Sumarizar<T>::listarCountries() {
-    listar("QuickSort.csv");
+void Sumarizar<T>::listar1(const string & nombreArchivo) {
+    fstream* archivo = new fstream(nombreArchivo,ios_base::out);
+    if(archivo) {
+        for (auto it = result1->begin(); it != result1->end(); it ++){
+            *archivo << it->first << ": " << it->second << endl;
+        }
+        archivo->close();
+    }
+}
 
+template <class T>
+void Sumarizar<T>::listar2(const string & nombreArchivo) {
+    fstream* archivo = new fstream(nombreArchivo,ios_base::out);
+    if(archivo) {
+        for (auto it = result2->begin(); it != result2->end(); it ++){
+            *archivo << it->first << ": " << it->second << endl;
+        }
+        archivo->close();
+    }
+}
+
+template <class T>
+void Sumarizar<T>::listarResult1() {
+    listar1("sumarizacion1.txt");
+}
+
+template <class T>
+void Sumarizar<T>::listarResult2() {
+    listar2("sumarizacion2.txt");
 }
 
 template <class T>

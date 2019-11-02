@@ -49,6 +49,9 @@ int main(){
     auto* sumarizacion = new Sumarizar<Country>("sample_data.csv");
 
     sumarizacion->sumarizacion1();
+    sumarizacion->listarResult1();
+    sumarizacion->sumarizacion2();
+    sumarizacion->listarResult2();
 
 
 
