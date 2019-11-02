@@ -4,7 +4,7 @@
 #include <ctime>
 
 int main(){
-    unsigned t0,t1;
+    unsigned t0,t1,t2,t3;
     //Countries *p= new Countries("sample_data.csv");
     //p->mostrar_countries();
     //delete p;
@@ -32,27 +32,37 @@ int main(){
         cout << y <<", ";
     }*/
 
-    /*auto* sort = new Sorts<Country>("sample_data.csv");
+    auto* sort = new Sorts<Country>("sample_data.csv");
 
-    sort->mostrarElementos();
+    //sort->mostrarElementos();
+    cout<<"Tiempo de ejecucion de cada sort segun el primer criterio:"<<endl;
+    //sort->listarCountries();
+    cout<< "Tiempo de ejecucion del Quicksort: ";
     t0=clock();
     sort->QuickSort(0, sort->size()-1);
     t1=clock();
-
-
     double time_1 =((t1-t0)/1000.0);
+    sort->listarCountries(1);
+    cout<<time_1<<endl;
+    cout<< "Tiempo de ejecucion del Shellsort: ";
+    t1=clock();
+    sort->ShellSort();
+    t2=clock();
+    double time_2 =((t2-t1)/1000.0);
+    cout<<time_2<<endl;
+    sort->listarCountries(2);
+    t2=clock();
+    sort->HeapSort(elementos->size());
+    t3=clock();
 
-    sort->listarCountries();
-
-    cout<< "Execution time off Quicksort: "<<time_1;*/
-
+/*  
     auto* sumarizacion = new Sumarizar<Country>("sample_data.csv");
 
     sumarizacion->sumarizacion1();
     sumarizacion->listarResult1();
     sumarizacion->sumarizacion2();
     sumarizacion->listarResult2();
-
+*/
 
 
     return 0;
