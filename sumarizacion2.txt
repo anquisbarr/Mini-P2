@@ -1,0 +1,175 @@
+Afghanistan 2008 Import: 1026804
+Afghanistan 2016 Export: 10046
+Albania 1996 Export: 41056
+Albania 1996 Import: 1454044
+Albania 1997 Export: 59917
+Albania 1997 Import: 673254
+Albania 1998 Export: 2708
+Albania 1998 Import: 1649770
+Albania 1999 Export: 13924
+Albania 1999 Import: 1293677
+Albania 2000 Export: 31194
+Albania 2000 Import: 1219670
+Albania 2001 Export: 156509
+Albania 2001 Import: 1729266
+Albania 2002 Export: 338954
+Albania 2002 Import: 3112236
+Albania 2003 Export: 35303
+Albania 2003 Import: 4002777
+Albania 2004 Export: 769695
+Albania 2004 Import: 5006497
+Albania 2005 Export: 954684
+Albania 2005 Import: 11167939
+Albania 2005 Re-Export: 81661
+Albania 2006 Export: 1063300
+Albania 2006 Import: 23855403
+Albania 2006 Re-Export: 476744
+Albania 2006 Re-Import: 546949
+Albania 2007 Export: 821311
+Albania 2007 Import: 32653670
+Albania 2008 Export: 767554
+Albania 2008 Import: 41504511
+Albania 2008 Re-Export: 603716
+Albania 2009 Export: 520743
+Albania 2009 Import: 39521607
+Albania 2010 Export: 609694
+Albania 2010 Import: 34578220
+Albania 2011 Export: 997424
+Albania 2011 Import: 31555605
+Albania 2012 Export: 901217
+Albania 2012 Import: 29733773
+Albania 2013 Export: 846588
+Albania 2013 Import: 29211442
+Albania 2014 Import: 28360772
+Albania 2015 Export: 636184
+Albania 2015 Import: 26485957
+Albania 2016 Export: 671606
+Albania 2016 Import: 22051518
+Algeria 1992 Export: 398255
+Algeria 1992 Import: 45583689
+Algeria 1993 Export: 858533
+Algeria 1993 Import: 22179594
+Algeria 1994 Export: 500165
+Algeria 1994 Import: 26560094
+Algeria 1995 Import: 15841726
+Algeria 1996 Export: 34651
+Algeria 1996 Import: 19011905
+Algeria 1997 Import: 16103798
+Algeria 1998 Import: 31260184
+Algeria 1999 Import: 31887163
+Algeria 2000 Import: 16786088
+Algeria 2001 Import: 7651574
+Algeria 2002 Export: 11075
+Algeria 2002 Import: 8721081
+Algeria 2003 Import: 28633306
+Algeria 2004 Export: 18751
+Algeria 2004 Import: 82535609
+Algeria 2005 Export: 56423
+Algeria 2005 Import: 51333435
+Algeria 2006 Export: 44550
+Algeria 2006 Import: 48513772
+Algeria 2007 Export: 865
+Algeria 2007 Import: 21454166
+Algeria 2008 Export: 52969
+Algeria 2008 Import: 27621582
+Algeria 2009 Export: 4853
+Algeria 2009 Import: 67188136
+Algeria 2010 Export: 4396
+Algeria 2010 Import: 102202150
+Algeria 2011 Import: 144064987
+Algeria 2012 Export: 153141
+Algeria 2012 Import: 133426966
+Algeria 2013 Export: 14163
+Algeria 2013 Import: 189484791
+Algeria 2014 Export: 20466
+Algeria 2014 Import: 175191268
+Algeria 2015 Export: 86724
+Algeria 2015 Import: 105322112
+Algeria 2016 Export: 126400
+Algeria 2016 Import: 113707207
+Andorra 1995 Export: 569446
+Andorra 1995 Import: 1917655
+Andorra 1996 Export: 523051
+Andorra 1996 Import: 1659775
+Andorra 1997 Export: 342897
+Andorra 1997 Import: 1360830
+Andorra 1998 Export: 318140
+Andorra 1998 Import: 1049744
+Andorra 1999 Export: 278488
+Andorra 1999 Import: 1430523
+Andorra 2000 Export: 286631
+Andorra 2000 Import: 1856104
+Andorra 2001 Export: 136830
+Andorra 2001 Import: 578236
+Andorra 2002 Export: 120732
+Andorra 2002 Import: 344366
+Andorra 2003 Export: 131704
+Andorra 2003 Import: 412374
+Andorra 2004 Export: 179221
+Andorra 2004 Import: 432627
+Andorra 2005 Export: 141496
+Andorra 2006 Export: 170770
+Andorra 2006 Import: 237751
+Andorra 2007 Export: 116615
+Andorra 2007 Import: 466157
+Andorra 2008 Export: 176892
+Andorra 2008 Import: 265281
+Andorra 2009 Export: 120983
+Andorra 2009 Import: 172356
+Andorra 2010 Export: 93535
+Andorra 2010 Import: 352628
+Andorra 2011 Export: 68199
+Andorra 2011 Import: 210499
+Andorra 2012 Export: 37857
+Andorra 2012 Import: 148379
+Andorra 2012 Re-Import: 2121
+Andorra 2013 Export: 60296
+Andorra 2013 Import: 190922
+Andorra 2014 Export: 200316
+Andorra 2014 Import: 137826
+Angola 2007 Import: 3767671
+Angola 2009 Import: 11846283
+Angola 2010 Import: 2707797
+Angola 2011 Import: 5781059
+Angola 2012 Import: 18934954
+Angola 2013 Import: 12701647
+Angola 2014 Import: 18369001
+Angola 2015 Import: 4149572
+Anguilla 2001 Import: 2214
+Anguilla 2002 Import: 4670
+Anguilla 2003 Import: 2828
+Anguilla 2004 Import: 16431
+Anguilla 2006 Import: 2078
+Anguilla 2007 Import: 1
+Anguilla 2008 Export: 10056
+Anguilla 2008 Import: 2307
+Antigua and Barbuda 2005 Export: 36548
+Antigua and Barbuda 2005 Import: 81019
+Antigua and Barbuda 2006 Import: 84338
+Antigua and Barbuda 2007 Export: 19335
+Antigua and Barbuda 2007 Import: 113867
+Antigua and Barbuda 2007 Re-Export: 839
+Antigua and Barbuda 2009 Export: 32023
+Antigua and Barbuda 2009 Import: 171761
+Antigua and Barbuda 2009 Re-Export: 32023
+Antigua and Barbuda 2010 Export: 241520
+Antigua and Barbuda 2010 Import: 52594
+Antigua and Barbuda 2010 Re-Export: 241520
+Antigua and Barbuda 2011 Export: 26378
+Antigua and Barbuda 2011 Import: 89459
+Antigua and Barbuda 2011 Re-Export: 26378
+Antigua and Barbuda 2012 Export: 6575
+Antigua and Barbuda 2012 Import: 114537
+Antigua and Barbuda 2012 Re-Export: 6313
+Antigua and Barbuda 2013 Export: 12513
+Antigua and Barbuda 2013 Import: 83477
+Antigua and Barbuda 2013 Re-Export: 11876
+Antigua and Barbuda 2014 Export: 22076
+Antigua and Barbuda 2014 Import: 76331
+Antigua and Barbuda 2014 Re-Export: 20855
+Antigua and Barbuda 2015 Export: 12302
+Antigua and Barbuda 2015 Import: 99371
+Antigua and Barbuda 2015 Re-Export: 11302
+Antigua and Barbuda 2016 Export: 11684
+Antigua and Barbuda 2016 Import: 41893
+Antigua and Barbuda 2016 Re-Export: 10351

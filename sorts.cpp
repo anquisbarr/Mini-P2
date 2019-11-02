@@ -1,6 +1,59 @@
 #include<iostream>
+#include<vector>
+#include "sorts.h"
 using namespace std;
 
+template <class T>
+void Sorts<T>::QuickSort(int inicio, int final) {
+
+    if(inicio < final){
+        int p = particion(inicio,final);
+        QuickSort(inicio,p-1);
+        QuickSort(p+1,final);
+    }
+}
+
+template<class T>
+void Sorts<T>::ShellSort(){ 
+    for (int k= size()/2; k > 0; k /= 2){ 
+        for (int i = k; i < size(); i += 1){ 
+            int temp = elementos->at(i)->getTradeUsd();//arr[i]; 
+            auto obj_temp = elementos->at(i);//arr[i]; 
+            int j;             
+            for (j = i; j >= k && elementos->at(j - k)->getTradeUsd() > temp; j -= k) 
+                elementos->at(j) = elementos->at(j - k); 
+            elementos->at(j) = obj_temp; 
+        } 
+    } 
+} 
+
+
+  
+
+template<class T>
+void Sorts<T>::HeapSort(int size){
+    for (int i = size / 2 - 1; i >= 0; --i)
+        heapify(size, i);
+
+      // Extrae uno por uno cada elemento del heap
+      for (int i = size-1; i >= 0; --i)
+      {
+          // Mueve la raíz actual al final
+          std::swap(elementos[0], elementos[i]);
+
+          // Llama a max heapify en el heap reducido
+          heapify(i, 0);
+      }
+}
+
+
+
+
+
+
+
+
+/*
 template <class T>
 void mergeSort(vector<T>* left,vector<T>* right,vector<T>* vect){
     unsigned int nl = left->size();
@@ -195,3 +248,4 @@ void shell(vector<F>* vect){
     }
 
 }
+*/
