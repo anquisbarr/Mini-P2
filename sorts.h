@@ -30,8 +30,11 @@ public:
     void listarCountries(int n);
     void QuickSort(int inicio, int final);
     void ShellSort();
-    void HeapSort(int n);
-    void MergeSort();
+    void heapify(int,int);
+    void heapSort();
+    void mergeSort(vector<T>*,vector<T>*);
+    void merge(vector<T>*);
+    void merge();
 };
 
 template <class T>
@@ -50,7 +53,7 @@ int Sorts<T>::particion(int inicio, int final){
             }
         }
         iter_swap(elementos->operator[](i+1),elementos->operator[](final));
-        
+
         return i+1;
 }
 template <class T>
@@ -134,30 +137,32 @@ Sorts<T>::~Sorts() {
     delete deserializador;
     delete serializador;
 }
+
+
 template<class T>
-void heapify(int n, int i) 
-{ 
+void Sorts<T>::heapify(int n, int i)
+{
     n=elementos->size();
-    int largest = i; // Initialize largest as root 
-    int l = 2*i + 1; // left = 2*i + 1 
-    int r = 2*i + 2; // right = 2*i + 2 
-  // If left child is larger than root 
-    if (l < n  && elementos->at(l)->getTradeUsd() > elementos->at(largest)->getTradeUsd()) 
-        largest = l; 
-  
-    // If right child is larger than largest so far 
-    if (r < n && elementos->at(r)->getTradeUsd() > elementos->at(largest)->getTradeUsd()) 
-        largest = r; 
-  
-    // If largest is not root 
-    if (largest != i) 
-    { 
-        swap(elementos->at(i), elementos->at(largest)); 
-  
-        // Recursively heapify the affected sub-tree 
-        heapify(n, largest); 
-    } 
-} 
+    int largest = i; // Initialize largest as root
+    int l = 2*i + 1; // left = 2*i + 1
+    int r = 2*i + 2; // right = 2*i + 2
+  // If left child is larger than root
+    if (l < n  && elementos->at(l)->getTradeUsd() > elementos->at(largest)->getTradeUsd())
+        largest = l;
+
+    // If right child is larger than largest so far
+    if (r < n && elementos->at(r)->getTradeUsd() > elementos->at(largest)->getTradeUsd())
+        largest = r;
+
+    // If largest is not root
+    if (largest != i)
+    {
+        swap(elementos->at(i), elementos->at(largest));
+
+        // Recursively heapify the affected sub-tree
+        heapify(n, largest);
+    }
+}
 
 
 #endif //MINI_P2_SORTS_H
