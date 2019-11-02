@@ -32,9 +32,9 @@ public:
     void ShellSort();
     void heapify(int,int);
     void heapSort();
-    void mergeSort(vector<T>*,vector<T>*);
-    void merge(vector<T>*);
-    void merge();
+    void mergeSort(T*a, int l, int r);
+    void merge(T* a, int l, int m, int r);
+    void Sort_array();
 };
 
 template <class T>
@@ -99,7 +99,8 @@ void Sorts<T>::listar(const string & nombreArchivo) {
     if(archivo){
         for (Country* country: *deserializador->getElementos()){
             *archivo << serializador->Serializar(country,",") <<endl;
-            cout << country->getCountryName() << " ";
+            // Provisional code for sorting and reading
+            /*cout << country->getCountryName() << " ";
             cout << country->getYear() << " ";
             cout << country->getCommCode() << " ";
             cout << country->getCommodity() << " ";
@@ -109,6 +110,7 @@ void Sorts<T>::listar(const string & nombreArchivo) {
             cout << country->getQuantityName() << " ";
             cout << country->getQuantity() << " ";
             cout << country->getCategory() << endl;
+             */
         }
         archivo->close();
     }
