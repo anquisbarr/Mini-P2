@@ -1,5 +1,6 @@
 #include "sorts.h"
 #include "sorts.cpp"
+#include "sumarizar.h"
 #include <ctime>
 
 int main(){
@@ -31,7 +32,7 @@ int main(){
         cout << y <<", ";
     }*/
 
-    auto* sort = new Sorts<Country>("sample_data.csv");
+    /*auto* sort = new Sorts<Country>("sample_data.csv");
 
     sort->mostrarElementos();
     t0=clock();
@@ -43,7 +44,13 @@ int main(){
 
     sort->listarCountries();
 
-    cout<< "Execution time off Quicksort: "<<time_1;
+    cout<< "Execution time off Quicksort: "<<time_1;*/
+
+    auto* sumarizacion = new Sumarizar<Country>("sample_data.csv");
+
+    sumarizacion->sumarizacion1();
+
+
 
     return 0;
 }

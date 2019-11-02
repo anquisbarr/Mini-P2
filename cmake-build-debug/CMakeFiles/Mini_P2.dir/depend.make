@@ -9,4 +9,5 @@ CMakeFiles/Mini_P2.dir/main.cpp.o: ../serializador.h
 CMakeFiles/Mini_P2.dir/main.cpp.o: ../serializadorCountry.h
 CMakeFiles/Mini_P2.dir/main.cpp.o: ../sorts.cpp
 CMakeFiles/Mini_P2.dir/main.cpp.o: ../sorts.h
+CMakeFiles/Mini_P2.dir/main.cpp.o: ../sumarizar.h
 
