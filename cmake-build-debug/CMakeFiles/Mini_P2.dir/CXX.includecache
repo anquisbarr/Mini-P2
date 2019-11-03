@@ -6,50 +6,51 @@
 
 #IncludeRegexTransform: 
 
-/home/chrisis/CLionProjects/project2-POO2/Mini-P2/Country.h
+C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/Country.h
 iostream
 -
 string
 -
 
-/home/chrisis/CLionProjects/project2-POO2/Mini-P2/deserializador.h
+C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/deserializador.h
 iostream
 -
 vector
 -
 
-/home/chrisis/CLionProjects/project2-POO2/Mini-P2/deserializadorCountry.h
+C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/deserializadorCountry.h
 deserializador.h
-/home/chrisis/CLionProjects/project2-POO2/Mini-P2/deserializador.h
+C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/deserializador.h
 Country.h
-/home/chrisis/CLionProjects/project2-POO2/Mini-P2/Country.h
+C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/Country.h
 sstream
 -
 
-/home/chrisis/CLionProjects/project2-POO2/Mini-P2/main.cpp
+C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/main.cpp
 sorts.h
-/home/chrisis/CLionProjects/project2-POO2/Mini-P2/sorts.h
+C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/sorts.h
 sorts.cpp
-/home/chrisis/CLionProjects/project2-POO2/Mini-P2/sorts.cpp
+C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/sorts.cpp
 sumarizar.h
-/home/chrisis/CLionProjects/project2-POO2/Mini-P2/sumarizar.h
+C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/sumarizar.h
 ctime
 -
 
-/home/chrisis/CLionProjects/project2-POO2/Mini-P2/serializador.h
+C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/serializador.h
 iostream
 -
 vector
 -
 
-/home/chrisis/CLionProjects/project2-POO2/Mini-P2/serializadorCountry.h
+C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/serializadorCountry.h
 serializador.h
-/home/chrisis/CLionProjects/project2-POO2/Mini-P2/serializador.h
+C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/serializador.h
 Country.h
-/home/chrisis/CLionProjects/project2-POO2/Mini-P2/Country.h
+C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/Country.h
 sstream
 -
 
+<<<<<<< HEAD
 /home/chrisis/CLionProjects/project2-POO2/Mini-P2/sorts.cpp
 iostream
 -
@@ -57,8 +58,13 @@ vector
 -
 sorts.h
 /home/chrisis/CLionProjects/project2-POO2/Mini-P2/sorts.h
+=======
+C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/sorts.cpp
+sorts.h
+C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/sorts.h
+>>>>>>> 532d89bda1644f1f2850a6dc901796941b8a06c4
 
-/home/chrisis/CLionProjects/project2-POO2/Mini-P2/sorts.h
+C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/sorts.h
 iostream
 -
 fstream
@@ -68,11 +74,11 @@ cstring
 vector
 -
 serializadorCountry.h
-/home/chrisis/CLionProjects/project2-POO2/Mini-P2/serializadorCountry.h
+C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/serializadorCountry.h
 deserializadorCountry.h
-/home/chrisis/CLionProjects/project2-POO2/Mini-P2/deserializadorCountry.h
+C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/deserializadorCountry.h
 
-/home/chrisis/CLionProjects/project2-POO2/Mini-P2/sumarizar.h
+C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/sumarizar.h
 iostream
 -
 fstream
@@ -80,9 +86,9 @@ fstream
 cstring
 -
 serializadorCountry.h
-/home/chrisis/CLionProjects/project2-POO2/Mini-P2/serializadorCountry.h
+C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/serializadorCountry.h
 deserializadorCountry.h
-/home/chrisis/CLionProjects/project2-POO2/Mini-P2/deserializadorCountry.h
+C:/Users/Sebastian Q.B/Documents/GitHub/Mini-P2/deserializadorCountry.h
 map
 -
 

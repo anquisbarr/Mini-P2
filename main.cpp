@@ -3,7 +3,6 @@
 #include "sumarizar.h"
 #include <ctime>
 
-
 int main(){
 
     auto* sort = new Sorts<Country>("sample_data.csv");
@@ -26,6 +25,7 @@ int main(){
     cout<<time_2<<endl;
     sort->listarCountries(2);
     t2=clock();
+<<<<<<< HEAD
     sort->heapSort();
     t3=clock();*/
 
@@ -33,14 +33,15 @@ int main(){
     sort->listarCountries(7);
 
 
-    /*auto* sumarizacion = new Sumarizar<Country>("commodity_trade_statistics_data.csv");
+/*  
+    auto* sumarizacion = new Sumarizar<Country>("sample_data.csv");
 
     sumarizacion->sumarizacion1();
     sumarizacion->listarResult1();
     sumarizacion->sumarizacion2();
     sumarizacion->listarResult2();
+*/
 
-    delete sumarizacion;
 
-    return 0;*/
+    return 0;
 }

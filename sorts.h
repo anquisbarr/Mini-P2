@@ -47,17 +47,17 @@ int Sorts<T>::size() {
 
 template <class T>
 int Sorts<T>::particion(int inicio, int final){
-        int x = elementos->at(final)->getTradeUsd();
-        int i = inicio-1;
-        for (int j = inicio; j < final;j++){
-            if(elementos->at(j)->getTradeUsd() < x){
-                i++;
-                iter_swap(elementos->operator[](i),elementos->operator[](j));
-            }
+    int x = elementos->at(final)->getTradeUsd();
+    int i = inicio-1;
+    for (int j = inicio; j < final;j++){
+        if(elementos->at(j)->getTradeUsd() < x){
+            i++;
+            iter_swap(elementos->operator[](i),elementos->operator[](j));
         }
-        iter_swap(elementos->operator[](i+1),elementos->operator[](final));
+    }
+    iter_swap(elementos->operator[](i+1),elementos->operator[](final));
 
-        return i+1;
+    return i+1;
 }
 template <class T>
 Sorts<T>::Sorts(const string& nombreArchivo) {
@@ -353,8 +353,8 @@ void Sorts<T>::merge(int left, int mid, int right,string criterio){
         }
         while (i < n1 && j < n2) {
             if (L[i]->getCountryName() > R[j]->getCountryName()
-            || ((L[i]->getCountryName() == R[j]->getCountryName()) && L[i]->getYear() > R[j]->getYear())
-            || ((L[i]->getCountryName() == R[j]->getCountryName()) && L[i]->getYear() > R[j]->getYear() && L[i]->getTradeUsd() >= R[j]->getTradeUsd())) {
+                || ((L[i]->getCountryName() == R[j]->getCountryName()) && L[i]->getYear() > R[j]->getYear())
+                || ((L[i]->getCountryName() == R[j]->getCountryName()) && L[i]->getYear() > R[j]->getYear() && L[i]->getTradeUsd() >= R[j]->getTradeUsd())) {
                 elementos->erase(it);
                 elementos->insert(it, L[i]);
                 i++;
@@ -413,5 +413,10 @@ template <class T>
 void Sorts<T>::mergeSortCriterio2() {
     mergeSort(0,elementos->size()-1,"Criterio2");
 }
+
+#endif //MINI_P2_SORTS_H
+
+
+
 
 #endif //MINI_P2_SORTS_H
