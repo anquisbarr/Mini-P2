@@ -5,37 +5,10 @@
 
 
 int main(){
-    unsigned t0,t1,t2,t3;
-    //Countries *p= new Countries("sample_data.csv");
-    //p->mostrar_countries();
-    //delete p;
-
-    /*vector<int>* enteros = new vector<int>();
-    vector<int>* temp = new vector<int>();
-    enteros->push_back(3);
-    enteros->push_back(6);
-    enteros->push_back(1);
-    enteros->push_back(4);
-    enteros->push_back(7);
-    enteros->push_back(2);
-    enteros->push_back(5);
-
-
-    for (int x : *enteros){
-        cout << x << "," ;
-    }
-
-    shell(enteros);
-
-    cout << endl << endl;
-
-    for (int y : *enteros){
-        cout << y <<", ";
-    }*/
 
     auto* sort = new Sorts<Country>("sample_data.csv");
 
-    //sort->mostrarElementos();
+    /*//sort->mostrarElementos();
     cout<<"Tiempo de ejecucion de cada sort segun el primer criterio:"<<endl;
     //sort->listarCountries();
     cout<< "Tiempo de ejecucion del Quicksort: ";
@@ -54,7 +27,10 @@ int main(){
     sort->listarCountries(2);
     t2=clock();
     sort->heapSort();
-    t3=clock();
+    t3=clock();*/
+
+    sort->heapSortCriterio2();
+    sort->listarCountries(7);
 
 
     /*auto* sumarizacion = new Sumarizar<Country>("commodity_trade_statistics_data.csv");

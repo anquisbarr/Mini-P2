@@ -53,6 +53,10 @@ sstream
 /home/chrisis/CLionProjects/project2-POO2/Mini-P2/sorts.cpp
 iostream
 -
+vector
+-
+sorts.h
+/home/chrisis/CLionProjects/project2-POO2/Mini-P2/sorts.h
 
 /home/chrisis/CLionProjects/project2-POO2/Mini-P2/sorts.h
 iostream
@@ -60,6 +64,8 @@ iostream
 fstream
 -
 cstring
+-
+vector
 -
 serializadorCountry.h
 /home/chrisis/CLionProjects/project2-POO2/Mini-P2/serializadorCountry.h

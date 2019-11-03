@@ -73,7 +73,7 @@ void Sumarizar<T>::sumarizacion1() {
     }
 
     for (auto it = result1->begin(); it != result1->end(); it ++){
-        cout << it->first << ": " << it->second << endl;
+        cout << it->first << " " << it->second << endl;
     }
 
 
@@ -97,7 +97,7 @@ void Sumarizar<T>::sumarizacion2() {
     }
 
     for (auto it = result2->begin(); it != result2->end(); it ++){
-        cout << it->first << ": " << it->second << endl;
+        cout << it->first << " " << it->second << endl;
     }
 
     delete llave2;
@@ -108,7 +108,7 @@ void Sumarizar<T>::listar1(const string & nombreArchivo) {
     fstream* archivo = new fstream(nombreArchivo,ios_base::out);
     if(archivo) {
         for (auto it = result1->begin(); it != result1->end(); it ++){
-            *archivo << it->first << ": " << it->second << endl;
+            *archivo << it->first << " " << it->second << " ";
         }
         archivo->close();
     }
@@ -119,7 +119,7 @@ void Sumarizar<T>::listar2(const string & nombreArchivo) {
     fstream* archivo = new fstream(nombreArchivo,ios_base::out);
     if(archivo) {
         for (auto it = result2->begin(); it != result2->end(); it ++){
-            *archivo << it->first << ": " << it->second << endl;
+            *archivo << it->first << " " << it->second << endl;
         }
         archivo->close();
     }
