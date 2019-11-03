@@ -416,7 +416,3 @@ void Sorts<T>::mergeSortCriterio2() {
 
 #endif //MINI_P2_SORTS_H
 
-
-
-
-#endif //MINI_P2_SORTS_H

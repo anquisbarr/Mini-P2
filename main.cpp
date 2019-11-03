@@ -1,5 +1,4 @@
 #include "sorts.h"
-#include "sorts.cpp"
 #include "sumarizar.h"
 #include <ctime>
 
